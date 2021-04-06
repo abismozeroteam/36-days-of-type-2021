@@ -1,7 +1,7 @@
 import os
 
-path = '/your/project/path/36-days-of-type-2021/TEMPLATE_GENERATOR'
-exportDir = '/your/project/path/36-days-of-type-2021'
+path = '/your/path/36-days-of-type-2021/TEMPLATE_GENERATOR'
+exportDir = '/your/path/36-days-of-type-2021'
 mainDir = 'PROJECT'
 mainDirPath = f'{exportDir}/{mainDir}'
 
