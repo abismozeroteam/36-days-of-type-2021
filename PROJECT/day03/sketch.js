@@ -43,6 +43,6 @@ function draw() {
   model(c);
   pop();
   if (frameCount < 76 ) {
-    save( "day2_" + frameCount.pad(2) + ".png");
+    save( "day3_" + frameCount.pad(2) + ".png");
   }
 }
