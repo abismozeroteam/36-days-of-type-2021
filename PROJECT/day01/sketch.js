@@ -10,7 +10,7 @@ function setup() {
 
 function draw() {
   background(0);
-  tint(random(255), map(mouseX, 0, 255, 0, width), map(mouseY, 0, 255, 0, height)); 
+  tint(random(255), map(mouseY, 0, 255, 0, height), map(mouseY, 0, 255, 0, height)); 
   image(aRender, 0, 0);
 }
 
