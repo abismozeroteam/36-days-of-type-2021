@@ -1,7 +1,7 @@
 let ene;
 
 function preload() {
-    enee = createVideo(['./NRender_A.mp4']);
+    ene = createVideo(['./NRender_A.mp4']);
 }
 
 function setup(){
@@ -17,5 +17,6 @@ function setup(){
 
 function draw() {
     background(0);
-    image(elle, 0, 0);
+    image(ene, 0, 0);
 }
+
