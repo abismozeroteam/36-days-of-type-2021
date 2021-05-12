@@ -32,9 +32,9 @@ function draw() {
     bezierVertex(w*m*6.2, h*m*1, w*m*7.7, h*m*1.4, w*m*8.8, h*m*2.9);
   endShape();
 
-  if (frameCount <= 24*5 ) {
-    save(`day7_${pad(frameCount, 3)}.png`);
-  }
+  // if (frameCount <= 24*5 ) {
+  //   save(`day7_${pad(frameCount, 3)}.png`);
+  // }
 }
 
 function pad (str, max) {

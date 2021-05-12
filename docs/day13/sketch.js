@@ -63,7 +63,6 @@ function setup() {
       mpxs.push([pixelSize*5, pixelSize*1 + pixelSize*i]);
     }
   }
-  print(mpxs);
 }
 
 function draw() {

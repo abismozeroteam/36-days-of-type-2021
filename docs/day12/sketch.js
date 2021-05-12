@@ -6,13 +6,10 @@ function preload() {
 
 function setup(){
     createCanvas(1080, 1080);
-
     elle.play();
     elle.loop();
     elle.volume(0);
-    elle.hide();
-    
-    
+    elle.hide(); 
 }
 
 function draw() {

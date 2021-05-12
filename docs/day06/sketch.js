@@ -1,6 +1,6 @@
 const shapeSize = 162;
 const d = 10;
-let lp = false;
+let lp = true;
 
 Number.prototype.pad = function(size) {
   let s = String(this);
@@ -39,13 +39,13 @@ function draw() {
     fv += 1
   }
 
-  if (frameCount <= 76 ) {
-    save(`day6_${frameCount.pad(2)}.png`);
-  }
+  // if (frameCount <= 76 ) {
+  //   save(`day6_${frameCount.pad(2)}.png`);
+  // }
 
-  if (!lp) {
-    noLoop();
-  }
+  // if (!lp) {
+  //   noLoop();
+  // }
 }
 
 function shape(xt, yt, fv, deg, density=d, size=shapeSize) {
@@ -69,11 +69,11 @@ function shape(xt, yt, fv, deg, density=d, size=shapeSize) {
 
 }
 
-function mousePressed() {
-  lp = true;
-  loop();
-}
+// function mousePressed() {
+//   lp = true;
+//   loop();
+// }
 
-function mouseReleased() {
-  lp = false;
-}
+// function mouseReleased() {
+//   lp = false;
+// }

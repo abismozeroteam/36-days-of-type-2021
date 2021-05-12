@@ -1,11 +1,11 @@
 let c;
 const frames = 24;
 
-Number.prototype.pad = function(size) {
-  let s = String(this);
-  while (s.length < (size || 2)) {s = "0" + s;}
-  return s;
-}
+// Number.prototype.pad = function(size) {
+//   let s = String(this);
+//   while (s.length < (size || 2)) {s = "0" + s;}
+//   return s;
+// }
 
 function preload() {
   c = loadModel('./C.obj', true);
@@ -42,7 +42,7 @@ function draw() {
   strokeWeight(0.5);
   model(c);
   pop();
-  if (frameCount < 76 ) {
-    save( "day3_" + frameCount.pad(2) + ".png");
-  }
+  // if (frameCount < 76 ) {
+  //   save( "day3_" + frameCount.pad(2) + ".png");
+  // }
 }

@@ -3,11 +3,11 @@ let speed = .01;
 const es = 100;
 let x, y, z;
 
-Number.prototype.pad = function(size) {
-  let s = String(this);
-  while (s.length < (size || 2)) {s = "0" + s;}
-  return s;
-}
+// Number.prototype.pad = function(size) {
+//   let s = String(this);
+//   while (s.length < (size || 2)) {s = "0" + s;}
+//   return s;
+// }
 
 class ThreeDE {
   constructor(x, y, z) {
@@ -83,7 +83,7 @@ function draw() {
     esArray[i].show(frameCount/12);
   }
   
-  if (frameCount < 76 ) {
-    save( "day5_" + frameCount.pad(2) + ".png");
-  }
+  // if (frameCount < 76 ) {
+  //   save( "day5_" + frameCount.pad(2) + ".png");
+  // }
 }

@@ -28,7 +28,7 @@ function draw() {
   background(0);
   image(page, 0, 0);
 
-  if (frameCount <= 4 ) {
-    save( "day2_" + frameCount.pad(2) + ".png");
-  }
+  // if (frameCount <= 4 ) {
+  //   save( "day2_" + frameCount.pad(2) + ".png");
+  // }
 }

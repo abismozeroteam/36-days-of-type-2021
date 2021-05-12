@@ -14,6 +14,6 @@ function draw() {
   image(aRender, 0, 0);
 }
 
-function mousePressed() {
-  saveFrames('day1', 'png', 1, 24);
-}
+// function mousePressed() {
+//   saveFrames('day1', 'png', 1, 24);
+// }

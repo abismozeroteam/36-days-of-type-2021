@@ -46,9 +46,9 @@ function draw() {
   }
   offset += s;
 
-  if (frameCount < 24 ) {
-    save(`day8_${pad(frameCount, 2)}.png`);
-  }
+  // if (frameCount < 24 ) {
+  //   save(`day8_${pad(frameCount, 2)}.png`);
+  // }
   
 }
 

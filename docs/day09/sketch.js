@@ -7,7 +7,7 @@ function setup() {
   angleMode(DEGREES);
   frameRate(fSpeed);
   noFill();
-  noLoop();
+  //noLoop();
 }
 
 function draw() {
@@ -42,9 +42,9 @@ function gradient(x, y, w, h, inner, outer, d) {
   }
 }
 
-function mouseClicked() {
-  noLoop();
-}
+// function mouseClicked() {
+//   noLoop();
+// }
 
 function pad (str, max) {
   str = str.toString();
