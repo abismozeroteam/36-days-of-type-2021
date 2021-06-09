@@ -36,6 +36,11 @@ const navChild = document.getElementById('glyphs').children;
 const currentLetter = document.getElementById('current-letter');
 checkActiveMenu(navChild, currentLetter);
 
+if (window.innerWidth < 1080) {
+    console.log(window.innerWidth);
+    alert('This website works better on windows wider than 1080px!');
+}
+
 for (child of navChild) {
     child.addEventListener('click', function(event){
         event.preventDefault();
