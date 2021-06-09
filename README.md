@@ -1,2 +1,2 @@
 # 36-days-of-type-2021
-Abismo⁰ is making the  36 Days of Type Instagram challenge
+This is the 2021 36 Days of Type Instagram challenge by Abismo⁰, our objective was to create an open-source repository with its website as a matter of documentation; in this project, you'll find several different techniques to construct the letters of the alphabet, most of them are made with Blender and P5.js but you can also find photos and conceptual images that helped us to give an abysmal look to them. If you want to take a look at the final result please visit https://36daysoftype2021.abismozero.com
